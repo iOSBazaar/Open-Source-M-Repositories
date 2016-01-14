@@ -30,7 +30,7 @@ function displayRepo(element, index, array) {
 			}
 			repoList += "<li class='swipeout'><a onclick=\"repoIcon=\'" + userRepo.repository.icon + "\'\" href=\"repositories/packages.html\" class=\"item-link\"><div class='swipeout-content'><div class='item-content'><div class='item-media'><img style='border-radius:21%;width: 29px;' src='" +
 				userRepo.repository.icon + "'></div><div class='item-inner' style='padding-top: 5px;padding-bottom: 7px;margin-left: 0px;padding-left: 15px;'><div class='item-title-row' style=\"font-weight:bold;\">" + "<div class=\"item-title\" style=\"color: #000; font-weight: 500; height: 22px;\"><font size=\"4\">" + userRepo.repository.name + "</font></div>" + 
-				"</div><div class='item-subtitle' style='color: #666666;height: 19px; padding-bottom: 0px;'><font size=\"2\">" + element + "</font></div></div></div></div></a><div class='swipeout-actions-inner'><a href='#' class='action2 swipeout-delete red' style='background-color: #ff3b30; padding-left: 30px;padding-right: 30px;' onclick=\"deleteRepository('" + element + "');\" data-i18n=\"repos.delete\">Delete</a></div></li>";
+				"</div><div class='item-subtitle' style='color: #666666;height: 19px; padding-bottom: 0px;'><font size=\"2\">" + element + "</font></div></div></div></div></a><div class='swipeout-actions-right'><a href='#' class='bg-red' onclick=\"deleteRepository('" + element + "');\" data-i18n=\"repos.delete\">Delete</a></div></li>";
 
 			$$(".inner-repos").html(repoList);
 		}
