@@ -11,7 +11,7 @@ Installation of Mojo repositories is super simple. It is all based in one folder
 handled by javascript. To install Mojo repositories, upload the `repositories` folder to the
 root of your application. Next, add `<script src="repositories/functions.js"></script>` to
 your application code wherever you are adding your javascript files. Lastly, just like
-linking to a regular page, you need to create a page link to `repositories/packages.html`.
+linking to a regular page, you need to create a page link to `repositories/sources.html`.
 Everything else is handled by M-Repos.
 
 #### License
