@@ -102,7 +102,7 @@ function addRepository() {
 					} catch (e) {
 						console.log(e);
 						console.log(request.responseText);
-						myApp.alert("The M-Repo you provided is invalid. Please check the URL and try again.", 'FlekStore');
+						myApp.alert("The M-Repo you provided is invalid. Please check the URL and try again.", 'Error');
 						return;
 					}
 					var currentRepos = JSON.parse(localStorage.getItem("mojorepos"));
